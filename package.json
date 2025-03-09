@@ -1,12 +1,16 @@
 {
-	"name": "arm",
-	"displayName": "Arm Assembly",
-	"description": "Arm assembly syntax support for Visual Studio Code",
-	"version": "1.7.4",
-	"publisher": "dan-c-underwood",
+	"name": "arm-assembly",
+	"displayName": "Liam's Arm Assembly Preferences",
+	"description": "Arm assembly syntax with platform independent comments, forked from dan-c-underwood/vscode-arm",
+	"version": "1.0.0",
+	"publisher": "LiamDrew",
 	"icon": "images/icon.png",
 	"author": {
-		"name": "Dan Underwood"
+		"name": "Liam Drew"
+	},
+	"forkedFrom": {
+		"name": "Dan Underwood",
+		"url": "https://github.com/dan-c-underwood/vscode-arm"
 	},
 	"categories": [
 		"Programming Languages"
@@ -20,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dan-c-underwood/vscode-arm.git"
+		"url": "https://github.com/LiamDrew/ARM-Vscode-Platform-Independent"
 	},
 	"contributes": {
 		"languages": [
